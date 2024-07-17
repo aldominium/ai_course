@@ -1,0 +1,14 @@
+prefix=/Users/aldoliva/Documents/GitHub/ai_course/env
+exec_prefix=/Users/aldoliva/Documents/GitHub/ai_course/env
+libdir=/Users/aldoliva/Documents/GitHub/ai_course/env/lib
+includedir=/Users/aldoliva/Documents/GitHub/ai_course/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Users/aldoliva/Documents/GitHub/ai_course/env/lib -lfreetype
+Libs.private: -lz -L/Users/aldoliva/Documents/GitHub/ai_course/env/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2

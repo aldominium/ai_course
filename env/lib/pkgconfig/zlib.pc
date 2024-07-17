@@ -1,0 +1,13 @@
+prefix=/Users/aldoliva/Documents/GitHub/ai_course/env
+exec_prefix=/Users/aldoliva/Documents/GitHub/ai_course/env
+libdir=/Users/aldoliva/Documents/GitHub/ai_course/env/lib
+sharedlibdir=/Users/aldoliva/Documents/GitHub/ai_course/env/lib
+includedir=/Users/aldoliva/Documents/GitHub/ai_course/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

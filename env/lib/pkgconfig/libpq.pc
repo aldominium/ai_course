@@ -1,0 +1,9 @@
+Name: libpq
+Description: PostgreSQL libpq library
+Url: http://www.postgresql.org/
+Version: 12.17
+Requires: 
+Requires.private: 
+Cflags: -I/Users/aldoliva/Documents/GitHub/ai_course/env/include
+Libs: -L/Users/aldoliva/Documents/GitHub/ai_course/env/lib -lpq
+Libs.private: -L/Users/aldoliva/Documents/GitHub/ai_course/env/lib -lpgcommon -lpgport -lssl -lcrypto -lgssapi_krb5 -lm
